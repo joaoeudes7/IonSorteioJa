@@ -1,8 +1,7 @@
 {
-  "name": "Sorteio_Ja",
+  "name": "sorteioja",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -12,27 +11,28 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
-    "@angular/common": "4.1.3",
-    "@angular/compiler": "4.1.3",
-    "@angular/compiler-cli": "4.1.3",
-    "@angular/core": "4.1.3",
-    "@angular/forms": "4.1.3",
-    "@angular/http": "4.1.3",
-    "@angular/platform-browser": "4.1.3",
-    "@angular/platform-browser-dynamic": "4.1.3",
-    "@ionic-native/core": "3.12.1",
-    "@ionic-native/splash-screen": "3.12.1",
-    "@ionic-native/status-bar": "3.12.1",
-    "@ionic/storage": "2.0.1",
-    "ionic-angular": "3.6.1",
-    "ionicons": "3.0.0",
-    "rxjs": "5.4.0",
-    "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.12"
+    "@angular/common": "latest",
+    "@angular/compiler": "latest",
+    "@angular/compiler-cli": "latest",
+    "@angular/core": "latest",
+    "@angular/forms": "latest",
+    "@angular/http": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-browser-dynamic": "latest",
+    "@ionic-native/core": "latest",
+    "@ionic-native/splash-screen": "latest",
+    "@ionic-native/status-bar": "latest",
+    "@ionic/storage": "latest",
+    "ionic-angular": "latest",
+    "ionicons": "latest",
+    "lodash": "latest",
+    "rxjs": "latest",
+    "sw-toolbox": "latest",
+    "zone.js": "latest"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "2.1.4",
-    "typescript": "2.3.4"
+    "@ionic/app-scripts": "latest",
+    "typescript": ">=2.4.2 <2.6"
   },
   "description": "An Ionic project"
 }
