@@ -15,9 +15,7 @@ export class HistoricPage {
   }
 
   ionViewDidEnter() {
-    this.storage.get("historic").then(
-      (data) => { this.historic = data }
-    );
+    this.historic = JSON.parse(localStorage.getItem("historic"));
   }
 
 }

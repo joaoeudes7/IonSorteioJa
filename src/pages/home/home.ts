@@ -30,12 +30,12 @@ export class HomePage {
   }
 
   ionViewWillLeave() {
-    this.storage.set('historic', this.historic);
+    localStorage.setItem('historic', JSON.stringify(this.historic));
   }
 
   random() {
-    this.historic.push(this.num);
     this.num = _.random(this.min, this.max);
+    this.historic.push(this.num);
   }
 
 }
