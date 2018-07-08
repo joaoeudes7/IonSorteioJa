@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { Storage } from '@ionic/storage';
 import * as _ from 'lodash';
 
 @Component({
@@ -16,9 +15,9 @@ export class HomePage {
   public max = 50;
   public _form: FormGroup;
 
-  constructor(public navCtrl: NavController,
-    public formBuilder: FormBuilder,
-    private storage: Storage) {
+  constructor(
+    public navCtrl: NavController,
+    public formBuilder: FormBuilder) {
 
     this._form = formBuilder.group({
       entity: this.formBuilder.group({
