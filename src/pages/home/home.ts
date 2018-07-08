@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import * as _ from 'lodash';
+import {random} from 'lodash';
 
 @Component({
   selector: 'page-home',
@@ -33,7 +33,7 @@ export class HomePage {
   }
 
   random() {
-    this.num = _.random(this.min, this.max);
+    this.num = random(this.min, this.max);
     this.historic.push(this.num);
   }
 
